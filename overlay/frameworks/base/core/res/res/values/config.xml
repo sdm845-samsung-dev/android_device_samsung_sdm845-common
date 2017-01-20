@@ -18,6 +18,9 @@
 -->
 
 <resources>
+    <!-- FP trustlet limits the number to 4. -->
+    <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
