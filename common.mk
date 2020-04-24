@@ -35,3 +35,7 @@ PRODUCT_EXTRA_VNDK_VERSIONS := \
     29 \
     30 \
     31 \
+
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiOverlay \
