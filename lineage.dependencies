@@ -1,5 +1,9 @@
 [
    {
+      "repository": "android_hardware_samsung",
+      "target_path": "hardware/samsung"
+   },
+   {
       "remote":"github",
       "repository":"sdm845-samsung/android_kernel_samsung_sdm845",
       "target_path":"kernel/samsung/sdm845"
