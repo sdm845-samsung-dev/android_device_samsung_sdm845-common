@@ -12,6 +12,8 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
+    init.samsung.display.rc \
+    init.samsung.eif.rc \
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := \
