@@ -795,4 +795,8 @@
         <item>0,1</item>
         <item>7,1</item>
     </string-array>
+
+    <!-- Boolean indicating if restoring network selection should be skipped -->
+    <!-- The restoring is handled by modem if it is true-->
+    <bool translatable="false" name="skip_restoring_network_selection">true</bool>
 </resources>
