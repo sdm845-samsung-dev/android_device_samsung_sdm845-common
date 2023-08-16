@@ -2,9 +2,5 @@ allow hal_power proc_touchpanel:dir search;
 allow hal_power proc_touchpanel:file w_file_perms;
 
 allow hal_power latency_device:chr_file { open write };
-allow hal_power sysfs_kgsl:file { open write };
-allow hal_power sysfs_devfreq:file { open write };
-allow hal_power sysfs_gpu:file { open write };
-allow hal_power cpu_dma_device:chr_file rw_file_perms;
 allow hal_power cgroup:file rw_file_perms;
 #allow hal_power vendor_default_prop:property_service set;
