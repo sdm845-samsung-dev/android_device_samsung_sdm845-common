@@ -124,10 +124,6 @@ PRODUCT_COPY_FILES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
-# Property overrides
--include $(LOCAL_PATH)/product_prop.mk
--include $(LOCAL_PATH)/system_prop.mk
-
 # Wi-Fi
 PRODUCT_PACKAGES += \
     WifiOverlay
