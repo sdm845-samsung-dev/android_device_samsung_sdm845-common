@@ -37,7 +37,6 @@ TARGET_NO_RADIOIMAGE := true
 # Platform
 BOARD_VENDOR := samsung
 BOARD_USES_QCOM_HARDWARE := true
-BUILD_WITHOUT_VENDOR := true
 TARGET_BOARD_PLATFORM := sdm845
 
 # Architecture
