@@ -1,3 +1,6 @@
+# Charger
+ro.charger.enable_suspend=true
+
 # Surfaceflinger
 debug.sf.latch_unsignaled=1
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
