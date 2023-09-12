@@ -112,9 +112,6 @@ BOARD_HAS_DOWNLOAD_MODE := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# VNDK
-BOARD_VNDK_VERSION := current
-
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/configs/vintf/framework_manifest.xml
 
