@@ -127,4 +127,4 @@ SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Inherit from the proprietary version
--include vendor/samsung/sdm845-common/BoardConfigVendor.mk
+include vendor/samsung/sdm845-common/BoardConfigVendor.mk

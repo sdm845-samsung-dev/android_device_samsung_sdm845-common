@@ -18,9 +18,6 @@
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
-# Vendor blobs
-$(call inherit-product, vendor/samsung/sdm845-common/sdm845-common-vendor.mk)
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
