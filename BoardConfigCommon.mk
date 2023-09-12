@@ -72,7 +72,6 @@ BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image/ loop.max
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive root=/dev/block/sda22
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/samsung/sdm845
 TARGET_KERNEL_LLVM_BINUTILS := false
 TARGET_KERNEL_OPTIONAL_LD := true
