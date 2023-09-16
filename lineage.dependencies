@@ -5,7 +5,7 @@
    },
    {
       "remote":"github",
-      "repository":"sdm845-samsung/android_kernel_samsung_sdm845",
+      "repository":"sdm845-samsung-dev/android_kernel_samsung_sdm845",
       "target_path":"kernel/samsung/sdm845"
    }
 ]
