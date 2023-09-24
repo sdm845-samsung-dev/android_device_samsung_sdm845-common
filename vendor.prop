@@ -1,2 +1,6 @@
+# Chipset
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM845
+
 # Zygote
 zygote.critical_window.minute=10
