@@ -63,6 +63,11 @@ BOARD_USES_QCOM_HARDWARE := true
 BUILD_WITHOUT_VENDOR := true
 TARGET_BOARD_PLATFORM := sdm845
 
+# Properties
+TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+
 # Recovery
 BOARD_HAS_DOWNLOAD_MODE := true
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/recovery.fstab
